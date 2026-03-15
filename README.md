@@ -1,0 +1,18 @@
+# Week 9 Mon Lab
+
+## Directions
+
+You will be implementing the Queue ADT as a linked list-based class. The `Queue` abstract class is already given to you, along with the header file for the `LinkedQueue` class, and a skeleton of its implementation file.
+
+You are also in charge of writing your own driver program to test your `LinkedQueue` class. Be thorough with your testing by checking all the operations in different scenarios and with various data types.
+
+## Notes
+
+- If you need to access the `length` attribute in your `LinkedQueue` class, you need to write it as `this->length`
+- Do **not** just use a linked list class from a previous assignment, you are starting from scratch
+- This is meant to be a singly linked list with pointers to the head and last nodes of the list
+- There are a number of operations that need to consider if it's invalid for it to be called: in those scenarios, make sure to `throw` a `string` exception explaining the error, like this
+```C++
+throw string("message goes here");
+```
+
